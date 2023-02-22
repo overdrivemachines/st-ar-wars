@@ -1,24 +1,30 @@
-# README
+### Film
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- You should be able to list the people in a given film.
 
-Things you may want to cover:
+### Person
 
-* Ruby version
+- You should be able to see which species a person is.
+- You should be able to see which home planet a person is from.
+- You should be able to determine who the person's senator (another Person) is.
+- You should be able to see which films the person is in.
+- You should be able to list the citizens of the person's home planet.
 
-* System dependencies
+### PersonFilm
 
-* Configuration
+- This is a join table listing the films people starred in.
 
-* Database creation
+### Planet
 
-* Database initialization
+- You should be able to see the list of citizens (Person) are from this planet.
+- You should be able to see the senator for this planet.
 
-* How to run the test suite
+### Species
 
-* Services (job queues, cache servers, search engines, etc.)
+- You should be able to see the people of this species.
 
-* Deployment instructions
 
-* ...
+## Answers
+
+If you want to see the answers, skip ahead to the back of the book by looking
+at the `finished` branch.
