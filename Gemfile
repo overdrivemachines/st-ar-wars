@@ -24,6 +24,7 @@ end
 group :development do
   gem "web-console"
   gem "annotate"
+  gem "rails-erd"
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"

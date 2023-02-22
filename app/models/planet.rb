@@ -9,4 +9,6 @@
 #  senator_id :integer
 #
 class Planet < ApplicationRecord
+  has_many :people
+  belongs_to :senator, class_name: "Person"
 end
